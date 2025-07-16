@@ -13,13 +13,14 @@ A command-line tool for generating temporary email addresses and viewing their i
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/temp-mail.git
-   cd temp-mail
+   git clone https://github.com/rkstudio585/TempMail.git
+   cd TempMail
    ```
 
 2. **Install the required dependencies:**
    ```bash
-   pip install -r requirements.txt
+   pip install uv
+   uv pip install -r requirements.txt --system
    ```
 
 ## Usage
